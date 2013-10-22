@@ -8,6 +8,28 @@
     <artifactId>bundle</artifactId>
     <packaging>pom</packaging>
     <version>0.0-SNAPSHOT</version>
+    <name>KeyboardFX</name>
+    <description>Screen keyboard - custom control for JavaFX</description>
+    <url>https://github.com/itollu/KeyboardFX</url>
+    <licenses>
+        <license>
+            <name>The Unlicense</name>
+            <url>http://unlicense.org/UNLICENSE</url>      
+            <distribution>repo</distribution>      
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/itollu/KeyboardFX</url>
+        <connection>https://github.com/itollu/KeyboardFX.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>itollu</id>
+            <name>Ilja Tollu</name>
+            <url>http://itollu.tel</url>
+        </developer>
+    </developers>
+    
     <modules>
         <module>../example</module>
         <module>../control</module>
