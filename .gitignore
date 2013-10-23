@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+/keyboardfx/target/
+*.iml
+example/target/
