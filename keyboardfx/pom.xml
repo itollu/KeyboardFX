@@ -11,5 +11,6 @@
 
     <artifactId>keyboardfx</artifactId>
     
+    <packaging>jar</packaging>
 
 </project>
