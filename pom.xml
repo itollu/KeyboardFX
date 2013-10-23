@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tel.itollu.keyboardfx</groupId>
-    <artifactId>keyboardfx-bundle</artifactId>
+    <artifactId>keyboardfx-with-example</artifactId>
     <packaging>pom</packaging>
     <version>0.0-SNAPSHOT</version>
     <name>KeyboardFX</name>
