@@ -38,8 +38,8 @@
     </parent>
     
     <modules>
-        <module>../example</module>
-        <module>../control</module>
+        <module>example</module>
+        <module>keyboardfx</module>
     </modules>
 
     <build>
