@@ -8,3 +8,6 @@ install:
 before_script:
     - "java -version"
     - "javac -version"
+    - "sudo apt-get install oracle-java8-set-default"
+    - "java -version"
+    - "javac -version"
