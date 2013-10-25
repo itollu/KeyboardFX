@@ -9,9 +9,8 @@ before_install:
 install:
     - "sudo apt-get install oracle-java8-installer"
     - "sudo update-java-alternatives -s java-8-oracle"
-    - "java -version"
     - "javac -version"
 after_failure:
     - "mvn test -e"
-    - "java -version"
     - "javac -version"
+    - "echo $JAVA_HOME"
