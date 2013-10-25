@@ -9,6 +9,6 @@ install:
     - "java -version"
     - "javac -version"
 after_failure:
-    - "mvn -e"
+    - "mvn test -e"
     - "java -version"
     - "javac -version"
