@@ -1,7 +1,6 @@
 language: java
 before_install:
     - "sudo apt-get purge openjdk*"
-    - "sudo apt-get remove oracle-java7-installer"
     - "sudo apt-get clean"
     - "sudo apt-get autoremove"
     - "sudo add-apt-repository -y ppa:webupd8team/java"
